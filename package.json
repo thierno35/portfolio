@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "dependencies": {
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^4.3.4"
   },
   "devDependencies": {},
   "scripts": {
