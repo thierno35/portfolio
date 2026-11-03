@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIALLO Thierno Sadou</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body class="w-screen h-screen overflow-x-hidden bg-white select-none text-slate-700">
+
+    <header class="fixed inset-x-0 top-0 z-50 flex items-center justify-between w-full p-4 px-5 duration-300 border-b h-14 md:text-xs lg:text-md xl:text-xl bg-white/40 backdrop-blur-xl text-slate-600 border-zinc-300">
+        <a href="#" class="flex items-center justify-center gap-2 w-max">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+            </svg>
+            <div class="hidden font-bold lg:inline-block">
+                <span>DIALLO Thierno Sadou</span>
+            </div>
+        </a>
+
+        <div class="flex gap-8 font-semibold">
+            <a href="https://drive.google.com/file/d/1Juv2kZHgWuS64n7phetkKxIWLxVI9Nd2/view?usp=drive_link" download="DIALLO Thierno_CV_2025.pdf" class="flex items-center justify-center gap-2 w-max">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                </svg>
+                <span class="hidden md:inline-block">CV</span>
+            </a>
+            <a href="#" class="flex items-center justify-center gap-2 w-max">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd" />
+                </svg>
+                <span class="hidden md:inline-block">A propos de moi</span>
+            </a>
+            <a href="#skills" class="flex items-center justify-center gap-2 w-max">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+                </svg>
+                <span class="hidden md:inline-block">Compétences</span>
+            </a>
+            <a href="#pro" class="flex items-center justify-center gap-2 w-max">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd" />
+                    <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
+                </svg>
+                <span class="hidden md:inline-block">Situations professionnelles</span>
+            </a>
+            <a href="#contacts" class="flex items-center justify-center gap-2 w-max">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z" />
+                    <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z" />
+                </svg>
+                <span class="hidden md:inline-block">Contacts</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- A propos de moi -->
+    <main class="flex flex-col h-full">
+        <div class="flex flex-col items-center justify-center h-full gap-10 px-5 md:gap-32 lg:flex-row lg:px-28 place-items-center">
+            <div class="flex items-center justify-center">
+                <img class="rounded-full w-36 h-36 lg:w-auto lg:h-auto" src="./img/profil.jpg" alt="">
+            </div>
+
+            <div class="flex flex-col max-w-3xl gap-5 md:gap-10">
+                <div class="text-3xl font-bold text-transparent duration-300 w-max md:text-5xl bg-clip-text bg-gradient-to-r from-blue-700 to-blue-600">
+                    <span>Bienvenue sur mon portfolio !</span>
+                </div>
+
+                <div class="box flex flex-col gap-5 overflow-hidden overflow-y-auto text-lg text-justify md:text-xl text-neutral-500 max-h-[340px]">
+                    <span>
+                        Bonjour,
+                        Je m'appelle Thierno Sadou DIALLO et je viens de terminer un Bachelor en Administration Systèmes, Réseaux et Bases de Données (ASRBD) à l'École EPSI de Rennes, 
+                        où j'ai effectué mon alternance chez Claranet. Grâce à cette expérience, j'ai acquis des compétences solides en gestion de systèmes, ainsi qu'en administration de bases de données.
+                    </span>
+
+                    <span class="hidden hidden_details">
+                        En plus de mon Bachelor, je suis titulaire d'un BTS en Services Informatiques aux Organisations (SIO), option Solutions d'Infrastructures, Systèmes et Réseaux (SISR).
+                        Ces formations m'ont permis de participer à divers projets, allant de la mise en place d'infrastructures sécurisés à l'optimisation de systèmes d'information.<br><br>
+                        Je suis maintenant à la recherche d'une opportunité en alternance pour poursuivre mes études et obtenir un Mastère. Mon objectif est de continuer à développer mes compétences techniques
+                        et de contribuer activement dans une entreprise innovante. Je suis particulièrement motivé par l'idée de rejoindre une équipe dynamique qui me permettra de mettre en pratique mes connaissances et de gagner en expérience professionnelle.<br><br>
+                        J'ai aussi participé à l’écriture de deux recueils de poèmes « En chemin… » 2019 et « Sauter par dessus les murs » 2022, invité au festival annuel « Etonnants Voyageurs » de Saint-Malo (juin 2019) où j'ai rencontré des grands noms comme Titi Robin, Arthure H, 
+                        Michel Lebris, Yvon Le Men...
+                    </span>
+
+                    <button class="px-10 py-3 font-semibold text-white duration-300 bg-blue-700 rounded-lg details w-max hover:-translate-y-1">Lire la suite</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+        </div>
+    </main>
+
+    <!-- Compétences -->
+    <div id="skills" class="flex flex-col items-center justify-center h-full gap-5 pt-20 md:pt-0 md:gap-32">
+        <div class="text-3xl font-bold text-blue-700 duration-300 md:text-5xl">
+            <span>Compétences</span>
+        </div>
+
+        <div class="grid grid-flow-row gap-5 p-4 h-max md:grid-flow-col place-items-center place-content-around auto-cols-auto">
+
+            <div class="flex flex-col w-full h-full p-3 bg-zinc-100 rounded-xl gap-y-5">
+                <div class="text-xl font-bold">
+                    <span>Systèmes et Réseaux</span>
+                </div>
+                <div>
+                    <ul class="pl-5 list-disc">
+                        <li>Simulation packet tracer</li>
+                        <li>Virtualisations sur VirtualBox, ESXI, VMware worksatation</li>
+                        <li>Analyse de trames (Wireshark)</li>
+                        <li>Segmentation VLAN</li>
+                        <li>Gestion de parc GLPI, Sauvegarde/Restauration</li>
+                        <li>Adressage IP dynamique DHCP, DNS mise en place d’un réseau LAN, routeur Cisco, Conteneur Docker</li>
+                        <li>Scripting (Basch, PowerShell)</li>
+                        <li>Contrôleur de domaines Active Directory</li>
+                        <li>Configuration de Pare feu (Stormshield, Pfsens)</li>
+                        <li>Portail Captif, OpenVPN</li>
+                        <li>Sécurité ACL, SSH</li>
+                        <li>Cloud (Azure, AWS)</li>
+                        <li>Rancher</li>
+                        <li>Ansible</li>
+                        <li>Docker</li>
+                        <li>Cebtreon, Zabbix</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid w-full h-full grid-cols-2 gap-5">
+                <div class="flex flex-col w-full h-full p-3 bg-zinc-100 rounded-xl gap-y-5">
+                    <div class="text-xl font-bold">
+                        <span>Services Applicatifs</span>
+                    </div>
+                    <div>
+                        <span>Web, FTP</span>
+                    </div>
+                </div>
+                <div class="flex flex-col w-full h-full p-3 bg-zinc-100 rounded-xl gap-y-5">
+                    <div class="text-xl font-bold">
+                        <span>Développement Web</span>
+                    </div>
+                    <div>
+                        <span>HTML, CSS, PHP, Apache</span>
+                    </div>
+                </div>
+                <div class="flex flex-col w-full h-full p-3 bg-zinc-100 rounded-xl gap-y-5">
+                    <div class="text-xl font-bold">
+                        <span>SGBDR</span>
+                    </div>
+                    <div>
+                        <span>SQL, MariaDB, MongoDB</span>
+                    </div>
+                </div>
+                <div class="flex flex-col w-full h-full p-3 bg-zinc-100 rounded-xl gap-y-5">
+                    <div class="text-xl font-bold">
+                        <span>Bureautique</span>
+                    </div>
+                    <div>
+                        <span>Suites Open office et Microsoft Office</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Situations professionnelles -->
+    <div id="pro" class="flex flex-col items-center justify-center gap-5 px-5 pt-20 md:gap-10 md:px-52 md:pt-0">
+        <div class="text-3xl font-bold text-blue-700 duration-300 md:text-5xl w-max">
+            <span>Situations professionnelles</span>
+        </div>
+
+        <div class="grid gap-10 md:grid-cols-2">
+
+            <!-- Active Directory -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Active Directory</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1hir7_1rLrY6v3G01_ylaNKKm9wzgYqAG/edit?usp=sharing&ouid=111388592927130438262&rtpof=true&sd=true">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Laboratoire pharmaceutique GSB.</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Installation du rôle ADDS.</li>
+                                <li>Création des utilisateurs et leurs groupes, structure AD.</li>
+                                <li>Attacher un poste au domaine galaxt-swiss.local.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Windows Servrer 2019</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>VirtualBox, Cahier des charges, </span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B1-4 Travailler en mode projet.</li>
+                                <li>B1-5 Mettre à disposition des utilisateurs un service informatique.</li>
+                                <li>B1-6 Organiser son développement professionnelle.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sauvegarde et restauration de données -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Sauvegarde et restauration</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1-p4diJW1sX67G5F2qyL_aEdtxVCxbzcQxLioQ4I-LvA/edit?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Dans un réseau client/serveur virtuel, étude de la gestion des sauvegardes et des restaurations de données sous Windows Server.</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Sauvegarde complète des données.</li>
+                                <li>Restauration des données.</li>
+                                <li>Planification des sauvegardes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Windows Servrer 2019</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>VirtualBox, Cahier des charges, </span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B1-6 Organiser son développement professionnelle.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Demande d'évolution PGI -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>PGI ODOO</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://drive.google.com/file/d/1j4E1Kau0hcRqyaROoA6qybllfRMXsuxp/view?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Mise en d'un Progiciel de Gestion Intégré au sein d'une entreprise</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Mise en place du diagramme de pert.</li>
+                                <li>Installation de PgAdmin (pour une prise en main graphique).</li>
+                                <li>Importation de la base de données.</li>
+                                <li>Importation du fichier clients et produits.</li>
+                                <li>Création des clients.</li>
+                                <li>Mise en place du site vitrine.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>PuTTY, serveur Ubuntu</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>VirtualBox, cahier des charges, base de données clients, base de données produits</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B1-2 Répondre aux incidents et aux demandes d'assistance et d'évolution.</li>
+                                <li>B1-3 Développer la présence en ligne de l'organisation.</li>
+                                <li>B1-4 Travailler en mode projet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stormshield -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Pare feu Stormsield</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1W6kBefAIXQhZa_QQ47rDWbK_Ee9dASZV/edit?usp=sharing&ouid=111388592927130438262&rtpof=true&sd=true">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>participer à la validation de la sureté d’une infrastructure  et à la mise en œuvre de solutions de sécurité au travers l’installation et la mise en œuvre du pare-feu Stormshield</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Paramètrage basic (nom, changement de mot de passe...).</li>
+                                <li>Configuration des interfaces du routeur.</li>
+                                <li>Mise en place des filtrages et du NAT.</li>
+                                <li>Création des objets (réseaux, hôtes).</li>
+                                <li>Rattachement à un annuaire.</li>
+                                <li>Mise en place d'un portail captif.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Le pare-feu Stormshield SNS, Un client linux, Un serveur Debian préconfiguré avec des services accessibles en DMZ</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>VirtualBox, cahier des charges</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B3-5 Assurer la cybersécurité d’une infrastructure réseau, d’un système, d’un service</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OpenVPN -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>OpenVPN</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1bSUT8MFmUUJrnCMmp4_pO2NvDPLKb3C8C3-505AXrBY/edit?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Mise en œuvre de solutions de sécurité au travers de l’installation et la mise en œuvre d’un tunnel VPN</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Installation et configuration d'OpenVPN.</li>
+                                <li>Génération des certificat et clés du serveur et du client.</li>
+                                <li>Configuration du poste client.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Un serveur Windows 2019, Un client Windows 10, Un serveur Debian pour héberger OpenVPN.</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>VirtualBox, cahier des charges</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B3-5 Assurer la cybersécurité d’une infrastructure réseau, d’un système, d’un service</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certification Cisco -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Certification Cisco</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1aVPqWlbx8UTE58G0gYAOgkKxro8mbagKPT-NBaKqDi4/edit?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Certification cybersecurity essentials</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Décrire les caractéristiques des criminels et des héros dans le domaine de la cybersécurité.</li>
+                                <li>Décrire les principes de la confidentialité, de l'intégrité et de la disponibilité dans leur relation avec l'état des données et les contre-mesures en matière de cybersécurité.</li>
+                                <li>Décrire les tactiques, les techniques et les procédures utilisées par les cybercriminels.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Compte Cisco Networking Acandemy.</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>Compte Cisco Networking Acandemy</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B1-6 Organiser son développement professionnel</li>
+                                <li>B3-5 Assurer la cybersécurité d’une infrastructure réseau, d’un système, d’un service</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certification Pix-->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Certification Pix</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1O6ksGQM9u8sevR-8fjpJZrDvVChrSJz8hcLXAnmVoqI/edit?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Certification Pix</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Traiter des données.</li>
+                                <li>Interagir.</li>
+                                <li>Partager et publier.</li>
+                                <li>Collaborer</li>
+                                <li>Mener une recherche et une veille d'information</li>
+                                <li>Gérer des données</li>
+                                <li>Développer des documents textuels</li>
+                                <li>Sécuriser l'environnement numérique</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Compte Pix.</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>Compte Pix</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B1-6 Organiser son développement professionnel</li>
+                                <li>B3-5 Assurer la cybersécurité d’une infrastructure réseau, d’un système, d’un service</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AP4-1 -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>AP4-1</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1apawZT8xY3jrZYM2VDW44futSyK4eQMu/">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Mise en place d'une infrastructure</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Mise en place du plan d’adressage.</li>
+                                <li>Configuration du Switch Cisco (VLANs).</li>
+                                <li>Configuration des service DHCP, AD/DNS, DHCP, OCS/GLPI.</li>
+                                <li>Mise en place du pare feu Stormshield: routage, nat, pat...</li>
+                                <li>Configuration d'un routeur Cisco: Routage, interfaces virtuelles.</li>
+                                <li>Authentification AD.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>MobaXterm, routeur Cisco, commutateur Cisco, Machines virtuelles</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>VirtualBox, cahier des charges, application web, schémas de l'infra, base de données de l'application web</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B1-4 Travailler en mode projet.</li>
+                                <li>B1-5 Mettre à disposition des utilisateurs un service informatique.</li>
+                                <li>B1-6 Organiser son développement professionnel.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AP4-2 -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>AP4-2</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/19eKYpnQPAboe_l5mTBgjHVyTgDEV8nx1/">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Mise en place d'une infrastructure</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Mise en place du plan d’adressage.</li>
+                                <li>Configuration du Switch Cisco (VLANs).</li>
+                                <li>Configuration des service DHCP, AD/DNS, DHCP, OCS/GLPI.</li>
+                                <li>Mise en place d'un routeur ubuntu: routage, nat, pat, haproxy...</li>
+                                <li>DMZ: réplication de base de données</li>
+                                <li>https</li>
+                                <li>Configuration d'un routeur Cisco: Routage, interfaces virtuelles.</li>
+                                <li>Authentification AD.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>MobaXterm, routeur Cisco, commutateur Cisco, Machines virtuelles</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>VirtualBox, cahier des charges, application web, schémas de l'infra, base de données de l'application web</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B1-4 Travailler en mode projet.</li>
+                                <li>B1-5 Mettre à disposition des utilisateurs un service informatique.</li>
+                                <li>B1-6 Organiser son développement professionnel.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Portfolio</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1Zfr4VXw-171q2YbF0RbNQorD8vKHbmyWtT4IxoRoofk/edit?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Mise en place d'un portfolio</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Création d'un site PCP.</li>
+                                <li>Mise en place de liens vers les productions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Xampp</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>Xampp, Visual Studio Code</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-6 Organiser son développement professionnel.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Migration de serveurs -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Migration de serveurs</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1e9nW4G0q7JqwNneqVWuAJkK0TO2FKbCALZbrxB7NwBY/edit?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Migration de serveur 2008, 2012 vers Windows server 2019</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Mise place de 4 serveurs.</li>
+                                <li>Mise en place de partage administratif.</li>
+                                <li>Mise en place de dossiers de profils itinérants.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Windows serveur 2019</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>Hyper serveur VMWare, bureau à distance</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B1-4 Travailler en mode projet.</li>
+                                <li>B1-5 Mettre à disposition des utilisateurs un service informatique.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Réponses aux incidents -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Réponses aux incidents et assistances</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1IJdXBC7Rp4tOnjXfTHlrdUAKWWxmFXe_pKK-IkpPAQY/edit?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>traitements de tickets d'incidents et de demandes</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Traitement des demandes concernant les applicatifs, services réseaux et systèmes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>An desk, UltraVNC viewer</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>Appels téléphoniques</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-2 Réponses aux incidents et aux demandes d'assitannces et d'évolution.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Rsyslog -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>rSyslog</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1m9s3F4ZFXyV4-jUDrfXxyZgOVydEf3fY/edit?usp=sharing&ouid=111388592927130438262&rtpof=true&sd=true">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Récupération et analyser du trafic sur le pare feu (Sophos) de la mairie de Fougères</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Installation et configuration du serveur LAMP.</li>
+                                <LI>Installation et configuration de LogAnalyser</LI>
+                                <li>Analyse des connexions, automatisation des tâches d'administration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Putty, VMWare</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>hyper serveur VMWare</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Segmentation -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Segmentation</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1x8_v4CZ97BtrnBgeo9L2peo5R9hzrv-5/">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Segmentation d'un réseau</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Mettre en place une segmentation IP Serveurs.</li>
+                                <li>Mettre en place une segmentation IP Imprimante</li>
+                                <li>Mettre en place une segmentation IP SWITCH</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Switch huawei, Windows serveur 2019</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>hyper serveur VMWare</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zabbix -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Supervision</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1a-UBrFKsHG9f4zqEEBGEirPinpR8SIliOU3Sv_tMF7A/edit?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Alimentation de la plateforme de supervision (Zabbix)</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Création de nouveaux éléments.</li>
+                                <li>Mise en place du contrôle des flux</li>
+                                <li>Mise à jour des cartes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Plateforme Zabbix</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>Plateforme Zabbix</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fog -->
+            <div class="flex flex-col h-full max-w-3xl p-3 bg-zinc-100 rounded-xl gap-y-5">
+
+                <div class="flex items-center justify-between my-2">
+                    <div class="text-2xl font-bold">
+                        <span>Fog</span>
+                    </div>
+
+                    <a class="flex items-center justify-center gap-2 px-8 py-2 font-semibold text-white duration-300 rounded-md hover:-translate-y-1 bg-zinc-900 w-max" href="https://docs.google.com/document/d/1HXfHdbjnHkUmMO7JWHtXPV3kLuJd1abxxTqMc__VM4E/edit?usp=sharing">
+                        <div>
+                            <span>Productions</span>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Contexte</span>
+                        </div>
+
+                        <div>
+                            <span>Déploiement d'image système sur de nouveaux PCs</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Description</span>
+                        </div>
+
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>Déploiement d'image système de la mairie de Fougères sur les nouveaux PCs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Environnement technique</span>
+                        </div>
+                        <div>
+                            <span>Fog</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Moyens</span>
+                        </div>
+                        <div>
+                            <span>Fog</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-full h-full col-span-2 gap-2 p-3 rounded-md bg-zinc-200">
+                        <div class="text-xl font-semibold">
+                            <span>Compétences</span>
+                        </div>
+                        <div>
+                            <ul class="pl-5 list-disc">
+                                <li>B1-1 Gérer le patrimoine informatique.</li>
+                                <li>B1-5 Mettre à disposition des utilisateurs un service informatique</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer id="contacts" class="flex flex-col items-center justify-center h-10 gap-5 py-10">
+        <abbr>
+            <span>Mail : tsdiallo02@gmail.com</span>
+        </div>
+
+        <div class="flex items-center justify-center text-blue-700">
+            <a href="https://www.linkedin.com/in/thierno-sadou-diallo-">
+                <span>Linkedin</span>
+            </a>
+        </div>
+    </footer>
+
+    <utils class="hidden p-3 border-2 rounded-xl"></utils>
+
+    <script src="./scripts/main.js"></script>
+
+</body>
+
+</html>
