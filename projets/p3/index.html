@@ -14,7 +14,7 @@
   <header class="noc-bar">
     <div class="noc-item">
       <span class="pulse-dot"></span>
-      <span>SYS_STATUS: <strong>OPERATIONAL</strong></span>
+      <span>SYS_STATUS: <strong>OPERATIONNEL</strong></span>
     </div>
     <div class="noc-item">
       <span>LATENCY: <strong id="noc-ping" class="mono" style="color: var(--green-primary);">14 ms</strong></span>
@@ -59,3 +59,119 @@
       <span>/</span>
       <span class="current">p3-deploiement-microsoft-365</span>
     </div>
+
+    <!-- Project Header -->
+    <div style="margin-bottom: 2rem;">
+      <div style="display: flex; gap: 0.75rem; align-items: center; margin-bottom: 0.5rem;">
+        <span class="project-id" style="color: var(--cyan-accent); border-color: rgba(56, 189, 248, 0.4); background: var(--cyan-dim);">PROJET #03</span>
+        <span class="tag tag-primary">Modern Workplace / Cloud</span>
+        <span class="mono" style="font-size: 0.8rem; color: var(--text-dim);">INFRA: HYBRID ENTRA ID</span>
+      </div>
+      <!-- 1. Titre du projet -->
+      <h1 style="font-size: clamp(1.8rem, 3.5vw, 2.5rem); margin-bottom: 0.5rem; color: #fff;">
+        Déploiement Microsoft 365 (AD, Entra ID, Hybrid Join, Intune)
+      </h1>
+      <p style="color: var(--text-muted); font-size: 1.05rem;">
+        Page en cours de Maintenance.
+      </p>
+    </div>
+
+        <!-- 6. Résultat (1 phrase) -->
+        <section class="result-card">
+          <h3>[05] Résultat Final</h3>
+          <p class="result-statement">
+            Parc 100 % managé via Intune, MFA actif.
+          </p>
+        </section>
+
+      </div>
+
+      <!-- Sidebar Télémétrie Tech Lead -->
+      <aside class="detail-sidebar">
+        
+        <!-- Fiche Spécification -->
+        <div class="sidebar-widget">
+          <div class="sidebar-widget-title">
+            <span>// PILOTAGE FLOTTE M365</span>
+            <span class="mono" style="color: var(--cyan-accent);">ENTRA ID</span>
+          </div>
+        </div>
+
+        <!-- Runbook Snippet -->
+        <div class="sidebar-widget">
+          <div class="sidebar-widget-title">
+            <span>// COMMANDE AUDIT HYBRIDE</span>
+            <span class="mono" style="color: var(--cyan-accent);">DSREGCMD</span>
+          </div>
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.35rem;">
+            Vérification de l'état Hybrid Join sur le poste client :
+          </p>
+          <div class="code-snippet">
+# Validation de la jonction hybride & MDM
+dsregcmd /status
+# Vérifier AzureAdJoined : YES
+# Vérifier DomainJoined  : YES
+# Vérifier WorkplaceJoined: NO
+# Vérifier MdmUrl        : https://enrollment.manage.microsoft.com
+          </div>
+        </div>
+
+        <!-- Contact Direct Widget -->
+        <div class="sidebar-widget" style="background: rgba(16, 24, 34, 0.4);">
+          <div class="sidebar-widget-title">
+            <span>// MODERN WORKPLACE</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Besoin d'un retour d'expérience sur la transition GPO vers Intune ou l'accès conditionnel ?
+          </p>
+          <a href="../../contact/" class="btn btn-primary btn-sm" style="width: 100%;">
+            Prendre contact &rarr;
+          </a>
+        </div>
+
+      </aside>
+
+    </div>
+
+    <!-- Navigation Inter-Projets -->
+    <div class="project-nav-bar">
+      <a href="../../#projets" class="btn btn-secondary btn-sm">
+        &larr; Revenir à la grille des projets
+      </a>
+      <div style="display: flex; gap: 0.5rem;">
+        <a href="../p2/" class="btn btn-outline btn-sm">&larr; P02 : Incident Majeur</a>
+        <a href="../p4/" class="btn btn-primary btn-sm">P04 : Déploiement pfSense &rarr;</a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: 0.3rem;">
+            THIERNO SADOU DIALLO
+          </div>
+          <div style="color: var(--text-dim); font-size: 0.8rem;">
+            Fiche Projet P03 &bull; Microsoft 365, Entra ID &amp; Intune &bull; Profil IT Hybride
+          </div>
+        </div>
+        <div style="display: flex; gap: 1.25rem;">
+          <a href="../../" class="mono" style="font-size: 0.85rem;">/accueil</a>
+          <a href="../../#projets" class="mono" style="font-size: 0.85rem;">/projets</a>
+          <a href="../../#competences" class="mono" style="font-size: 0.85rem;">/competences</a>
+          <a href="../../contact/" class="mono" style="font-size: 0.85rem;">/contact</a>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <span>© 2026 Thierno Sadou DIALLO &bull; Architecture réseau &amp; support opérationnel.</span>
+        <span class="mono">STATUS: 200 OK &bull; ENCODING: UTF-8</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/dashboard.js"></script>
+</body>
+</html>
