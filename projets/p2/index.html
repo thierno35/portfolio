@@ -1,1 +1,257 @@
-fg
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P02 : Gestion d'Incident Majeur Réseau & DC | Thierno Sadou DIALLO</title>
+  <meta name="description" content="Fiche projet détaillée : Gestion d'incident majeur de sévérité 1, diagnostic Wireshark, rétablissement en 45 minutes et rapport RCA.">
+  <link rel="icon" type="image/svg+xml" href="../../assets/img/favicon.svg">
+  <link rel="stylesheet" href="../../assets/css/terminal.css">
+</head>
+<body>
+
+  <!-- Top NOC Telemetry Bar -->
+  <header class="noc-bar">
+    <div class="noc-item">
+      <span class="pulse-dot amber"></span>
+      <span>SYS_STATUS: <strong>INCIDENT_RECOVERED</strong></span>
+    </div>
+    <div class="noc-item">
+      <span>LATENCY: <strong id="noc-ping" class="mono" style="color: var(--green-primary);">11 ms</strong></span>
+    </div>
+    <div class="noc-item">
+      <span>PROJECT: <strong>P02_MAJOR_INCIDENT_RESOLUTION</strong></span>
+    </div>
+    <div class="noc-item">
+      <span id="noc-clock" class="mono" style="color: var(--cyan-accent);">LOC: --:--:-- | UTC: --:--</span>
+    </div>
+  </header>
+
+  <!-- Sticky Main Navigation -->
+  <nav class="site-header">
+    <div class="container nav-wrapper">
+      <a href="../../" class="brand-link">
+        <div class="brand-icon">⚡</div>
+        <span>AM_SYSADMIN<span class="brand-cursor"></span></span>
+      </a>
+
+      <button class="mobile-nav-toggle" aria-label="Menu">[☰ MENU]</button>
+
+      <div class="main-nav">
+        <ul class="nav-list">
+          <li><a href="../../" class="nav-link"><span class="mono">01.</span> ACCUEIL</a></li>
+          <li><a href="../../#projets" class="nav-link active"><span class="mono">02.</span> PROJETS <span class="nav-badge">5</span></a></li>
+          <li><a href="../../#competences" class="nav-link"><span class="mono">03.</span> COMPÉTENCES</a></li>
+          <li><a href="../../contact/" class="nav-link"><span class="mono">04.</span> CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container" style="padding-top: 2rem; padding-bottom: 4rem;">
+
+    <!-- Breadcrumb CLI -->
+    <div class="breadcrumb-cli">
+      <a href="../../">~ / accueil</a>
+      <span>/</span>
+      <a href="../../#projets">projets</a>
+      <span>/</span>
+      <span class="current">p2-gestion-incident-majeur</span>
+    </div>
+
+    <!-- Project Header -->
+    <div style="margin-bottom: 2rem;">
+      <div style="display: flex; gap: 0.75rem; align-items: center; margin-bottom: 0.5rem;">
+        <span class="project-id" style="color: var(--red-accent); border-color: rgba(244, 63, 94, 0.4); background: var(--red-dim);">PROJET #02</span>
+        <span class="tag" style="border-color: rgba(244, 63, 94, 0.4); color: var(--red-accent);">Crise P1 / Réseau &amp; OS</span>
+        <span class="mono" style="font-size: 0.8rem; color: var(--text-dim);">SEVERITY: SEV-1 RESOLVED</span>
+      </div>
+      <!-- 1. Titre du projet -->
+      <h1 style="font-size: clamp(1.8rem, 3.5vw, 2.5rem); margin-bottom: 0.5rem; color: #fff;">
+        Gestion d'incident
+      </h1>
+      <p style="color: var(--text-muted); font-size: 1.05rem;">
+        Page en cours d'édition.
+      </p>
+    </div>
+
+    <!-- Layout 2 colonnes : Fiche Technique & Télémétrie Tech Lead -->
+    <div class="project-detail-layout">
+
+      <!-- Fiche Projet Centrale (Template Identique) -->
+      <div class="detail-main">
+
+        <!-- 2. Contexte (3 phrases max) -->
+        <section class="detail-block">
+          <h2 class="detail-block-title">
+            <span>[01]</span> Contexte du Projet
+          </h2>
+          <p class="detail-paragraph">
+            Projet en cours d'édition.
+          </p>
+        </section>
+
+        <!-- 3. Mon rôle (2-3 phrases) -->
+        <section class="detail-block">
+          <h2 class="detail-block-title">
+            <span>[02]</span> Mon Rôle &amp; Périmètre
+          </h2>
+          <p class="detail-paragraph">
+            Projet en cours d'édition.
+          </p>
+        </section>
+
+        <!-- 4. Stack (liste de tags) -->
+        <section class="detail-block">
+          <h2 class="detail-block-title">
+            <span>[03]</span> Stack Technique
+          </h2>
+          <div class="tag-list" style="margin-bottom: 0.5rem;">
+            <span class="tag tag-primary">Wireshark</span>
+            <span class="tag tag-primary">PowerShell</span>
+            <span class="tag tag-primary">Event Viewer</span>
+          </div>
+        </section>
+
+        <!-- 5. Réalisations (3-5 puces, chiffrées) -->
+        <section class="detail-block">
+          <h2 class="detail-block-title">
+            <span>[04]</span> Réalisations Opérationnelles
+          </h2>
+          <ul class="bullet-list">
+            <li class="bullet-item">
+              Identification de la cause racine en <strong>X minutes</strong> 
+            </li>
+            <li class="bullet-item">
+              En cours d'édition.
+            </li>
+            <li class="bullet-item">
+              Page en cours d'édition
+            </li>
+            <li class="bullet-item">
+              Page en cours d'édition
+            </li>
+          </ul>
+        </section>
+
+        <!-- 6. Résultat (1 phrase) -->
+        <section class="result-card">
+          <h3>[05] Résultat Final</h3>
+          <p class="result-statement">
+            Page en cours d'édition.
+          </p>
+        </section>
+
+      </div>
+
+      <!-- Sidebar Télémétrie Tech Lead -->
+      <aside class="detail-sidebar">
+        
+        <!-- Fiche Spécification -->
+        <div class="sidebar-widget">
+          <div class="sidebar-widget-title">
+            <span>// CHRONO RÉSOLUTION</span>
+            <span class="mono" style="color: var(--red-accent);">SLA TARGET</span>
+          </div>
+          <div class="spec-list">
+            <div class="spec-row">
+              <span class="spec-label">Sévérité</span>
+              <span class="spec-val" style="color: var(--red-accent);">SEV-1 (Critique)</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Users impactés</span>
+              <span class="spec-val">a définir</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Diag cause racine</span>
+              <span class="spec-val green">a définir</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Temps résolution</span>
+              <span class="spec-val green">à définir</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Broadcast storm</span>
+              <span class="spec-val">à définir</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Récidive</span>
+              <span class="spec-val green">à définir</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Runbook Snippet -->
+        <div class="sidebar-widget">
+          <div class="sidebar-widget-title">
+            <span>// COMMANDE ISOLATION</span>
+            <span class="mono" style="color: var(--cyan-accent);">NETWORK / CLI</span>
+          </div>
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.35rem;">
+            Activation du BPDU Guard et Storm Control :
+          </p>
+          <div class="code-snippet">
+# A définir
+          </div>
+        </div>
+
+        <!-- Contact Direct Widget -->
+        <div class="sidebar-widget" style="background: rgba(16, 24, 34, 0.4);">
+          <div class="sidebar-widget-title">
+            <span>// GESTION DE CRISE</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Intéressé par ma méthodologie de gestion?
+          </p>
+          <a href="../../contact/" class="btn btn-primary btn-sm" style="width: 100%;">
+            Échanger avec moi &rarr;
+          </a>
+        </div>
+
+      </aside>
+
+    </div>
+
+    <!-- Navigation Inter-Projets -->
+    <div class="project-nav-bar">
+      <a href="../../#projets" class="btn btn-secondary btn-sm">
+        &larr; Revenir à la grille des projets
+      </a>
+      <div style="display: flex; gap: 0.5rem;">
+        <a href="../p1/" class="btn btn-outline btn-sm">&larr; P01 : Migration AD</a>
+        <a href="../p3/" class="btn btn-primary btn-sm">P03 : M365 &amp; Intune &rarr;</a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: 0.3rem;">
+            THIERNO SADOU DIALLO
+          </div>
+          <div style="color: var(--text-dim); font-size: 0.8rem;">
+            Fiche Projet P02 &bull; Incident Majeur &bull; Profil IT Hybride
+          </div>
+        </div>
+        <div style="display: flex; gap: 1.25rem;">
+          <a href="../../" class="mono" style="font-size: 0.85rem;">/accueil</a>
+          <a href="../../#projets" class="mono" style="font-size: 0.85rem;">/projets</a>
+          <a href="../../#competences" class="mono" style="font-size: 0.85rem;">/competences</a>
+          <a href="../../contact/" class="mono" style="font-size: 0.85rem;">/contact</a>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <span>© 2026 Thierno Sadou DIALLO &bull; Architecture réseau &amp; support opérationnel.</span>
+        <span class="mono">STATUS: 200 OK &bull; ENCODING: UTF-8</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/dashboard.js"></script>
+</body>
+</html>
