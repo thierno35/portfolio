@@ -88,24 +88,6 @@
         <div class="sidebar-widget">
           
         </div>
-      
-        <!-- <!-- Runbook Snippet -->
-        <div class="sidebar-widget">
-          <div class="sidebar-widget-title">
-            <span>// EXTRAIT VALIDATION PS</span>
-            <span class="mono" style="color: var(--cyan-accent);">POWERSHELL</span>
-          </div>
-          <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.35rem;">
-            Vérification de parité des ACLs et groupes :
-          </p>
-          <div class="code-snippet">
-# Audit d'équivalence de sécurité
-$OldGroups = Get-ADPrincipalGroupMembership $OldUser | Select-Object -ExpandProperty Name
-$NewGroups = Get-ADPrincipalGroupMembership $NewUser | Select-Object -ExpandProperty Name
-Compare-Object $OldGroups $NewGroups -IncludeEqual
-          </div>
-        </div> -->
-    
 
         <!-- Contact Direct Widget -->
         <div class="sidebar-widget" style="background: rgba(16, 24, 34, 0.4);">
